@@ -1,0 +1,12 @@
+{
+  "uuid": "ab78b74a-7a8a-4df1-ba87-8b6acf0d3d15-tc-0-1000",
+  "name": "simbirsoft.UnitTest1.Main",
+  "children": [
+    "8dd668f8-1651-40d7-861e-55e52826f48b-tr-0-1001"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1607712592293,
+  "stop": 1607712610964
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "ywuqL3XvbIfJSa2YQuGtBA29zSZxgAuGzYwI6Xa5n76s8Zblxcurs1OhnEjpyesa8DC8OdP4yRafoPmkZqoRyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASEROIL\\Desktop\\SKOVIKOV\\test\\simbirsoft_test\\simbirsoft_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\allure.commons\\3.1.0.6\\allure.commons.3.1.0.6.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\microsoft.net.test.sdk\\16.8.3\\microsoft.net.test.sdk.16.8.3.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\mimetypesmap\\1.0.8\\mimetypesmap.1.0.8.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\nunit.allure\\1.0.11\\nunit.allure.1.0.11.nupkg.sha512",
+    "C:\\Users\\ASEROIL\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

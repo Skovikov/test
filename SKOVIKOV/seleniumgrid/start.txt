@@ -1,0 +1,12 @@
+cd C:\Users\nik\Desktop\seleniumgrid
+
+java -jar selenium-server-standalone-3.141.59.jar -role hub -port 8090
+
+http://localhost:8090/grid/console
+
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://localhost:8090/grid/register -port 5555 -browser browserName=chrome
+
+1 - папка
+2 - сервер
+3 - консоль
+4 - место для браузера

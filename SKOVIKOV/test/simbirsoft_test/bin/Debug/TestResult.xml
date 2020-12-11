@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\ASEROIL\Desktop\test\simbirsoft_test\bin\Debug\simbirsoft_test.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-12-11" time="21:37:23">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.9148" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0" machine-name="DESKTOP-UR21RVF" user="ASEROIL" user-domain="DESKTOP-UR21RVF" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\Users\ASEROIL\Desktop\test\simbirsoft_test\bin\Debug\simbirsoft_test.dll" executed="True" result="Failure" success="False" time="2.405" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="simbirsoft" executed="True" result="Failure" success="False" time="2.400" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="UnitTest1" executed="True" result="Failure" success="False" time="2.314" asserts="0">
+            <results>
+              <test-case name="simbirsoft.UnitTest1.Main" executed="True" result="Error" success="False" time="2.308" asserts="0">
+                <failure>
+                  <message><![CDATA[OpenQA.Selenium.WebDriverException : Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8090
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)]]></message>
+                  <stack-trace><![CDATA[в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+в OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+в OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+в OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)
+в simbirsoft.UnitTest1.Main() в C:\Users\ASEROIL\Desktop\test\simbirsoft_test\UnitTest1.cs:строка 22
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

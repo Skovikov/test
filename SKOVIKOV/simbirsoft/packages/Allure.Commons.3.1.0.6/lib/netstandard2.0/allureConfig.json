@@ -1,0 +1,12 @@
+{
+  "allure": {
+    "directory": "allure-results", 
+    "title": "custom run title",
+    "links":
+    [
+      "https://example.org/{link}",
+      "https://example.org/{issue}",
+      "https://example.org/{tms}"
+    ]
+  }
+}

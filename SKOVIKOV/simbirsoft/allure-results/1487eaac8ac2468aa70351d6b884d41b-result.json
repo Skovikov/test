@@ -1,0 +1,63 @@
+{
+  "uuid": "6b5ec6f6-b38b-40c1-bd1e-0354868e4dba-tr-0-1001",
+  "historyId": "simbirsoft.UnitTest1.Main",
+  "fullName": "simbirsoft.UnitTest1.Main",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-UR21RVF"
+    },
+    {
+      "name": "testClass",
+      "value": "simbirsoft.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Main"
+    },
+    {
+      "name": "package",
+      "value": "simbirsoft.UnitTest1"
+    }
+  ],
+  "links": [],
+  "name": "Main",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Main",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "25d7f2271f834b30b1578ac52f21badd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1607715033900,
+      "stop": 1607715050042
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1607715033899,
+  "stop": 1607715050046
+}
